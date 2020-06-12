@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es2020": true
+        "es6": true
     },
     "extends": [
         "airbnb-base"
@@ -11,5 +11,8 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-param-reassign": [2, {
+            "props": false
+        }]
     }
 }
